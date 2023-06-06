@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=1024">
+    <!-- <title>APT-Gen</title> -->
+    <title>Adaptive Procedural Task Generation for Hard-Exploration Problems</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./files/bootstrap.min.css">
+    <link rel="stylesheet" href="./files/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="./files/style.css">
+
+    <!-- Google fonts -->
+    <link href="./files/google-fonts.css" rel="stylesheet" type="text/css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-47054450-12"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-47054450-12');
+    </script>
+
+  </head>
+
+
+<body>
+<div class="container-fluid">
+
+  <center><font size="4"><br></font></center>
+
+  <center>
+    <span style="font-size:46px;font-weight:bold;">
+    Adaptive Procedural Task Generation </br> for Hard-Exploration Problems
+    <!-- <h1 style="line-height: 1.5">Adaptive Procedural Task Generation </br> for Hard-Exploration Problems</h1> -->
+    </span>
+  </center>
+
+  <!-- <div class="col-xs-1 text-center"> -->
+  <!--   <a href="http://svl.stanford.edu/"> -->
+  <!--     <img src="./files/svl_logo.png" class="img-logo"> -->
+  <!--   </a> -->
+  <!-- </div> -->
+
+  <center><font size="4"><br></font></center>
+
+  <table align=center width=800px>
+      <tr>
+        <td align=center width=150px><center><span style="font-size:24px">
+          <a href="http://ai.stanford.edu/~kuanfang/" target="_blank">
+            Kuan Fang
+          </a>
+        </span></center></td>
+
+        <td align=center width=150px><center><span style="font-size:24px">
+          <a href="https://web.stanford.edu/~yukez/" target="_blank">
+            Yuke Zhu
+          </a>
+        </span></center></td>
+
+        <td align=center width=150px><center><span style="font-size:24px">
+          <a href="http://cvgl.stanford.edu/silvio/" target="_blank">
+            Silvio Savarese
+          </a>
+        </span></center></td>
+
+        <td align=center width=150px><center><span style="font-size:24px">
+          <a href="https://profiles.stanford.edu/fei-fei-li" target="_blank">
+            Li Fei-Fei
+          </a>
+        </span></center></td>
+
+      <tr/>
+  </table>
+
+  <center><font size="4"><br></font></center>
+
+  <div class="col-xs-8 col-xs-offset-2 text-center">
+      <td align=center width=150px><center><span style="font-size:24px">
+        Stanford University
+      </span></center></td>
+  </div>
+
+  <center><font size="4"><br></font></center>
+  <center><font size="4"><br></font></center>
+  <center><font size="4"><br></font></center>
+
+  <center>
+    <img src="./images/apt-gen-pull.gif">
+  </center>
+
+  <center><font size="4"><br></font></center>
+  <center><font size="4"><br></font></center>
+
+</div>
+
+
+<div class="row section highlight">
+  <div class="col-xs-6 col-xs-offset-3 text-justify">
+  <h3>Abstract</h3>
+  We introduce Adaptive Procedural Task Generation (APT-Gen), an approach for
+  progressively generating a sequence of tasks as curricula to facilitate
+  reinforcement learning in hard-exploration problems. At the heart of our
+  approach, a task generator learns to create tasks via a black-box procedural
+  generation module by adaptively sampling from the parameterized task space.
+  To enable curriculum learning in the absence of a direct indicator of
+  learning progress, the task generator is trained by balancing the agent's
+  expected return in the generated tasks and their similarities to the target
+  task. Through adversarial training, the similarity between the generated
+  tasks and the target task is adaptively estimated by a task discriminator
+  defined on the agent's behaviors. In this way, our approach can efficiently
+  generate tasks of rich variations for target tasks of unknown
+  parameterization or not covered by the predefined task space. Experiments
+  demonstrate the effectiveness of our approach through quantitative and
+  qualitative analysis in various scenarios.
+  </div>
+</div>
+
+<div class="row section">
+  <div class="col-xs-6 col-xs-offset-3 text-justify">
+    <h3>Paper</h3>
+    <center>
+      <a href="https://arxiv.org/pdf/2007.00350.pdf">
+        <font size="5">[Download PDF]</font>
+      </a>
+      &nbsp;&#183;&nbsp;
+      <a href="https://arxiv.org/abs/2007.00350">
+        <font size="5">[arXiv]</font>
+      </a>
+      &nbsp;&#183;&nbsp;
+      <a href="http://ai.stanford.edu/~kuanfang/bibtex/fang2020aptgen.bib">
+        <font size="5">[BibTex]</font>
+      </a>
+      <a href="https://arxiv.org/pdf/2007.00350.pdf">
+        <img src="./images/apt-gen-arxiv.png" class="img-responsive">
+      </a>
+    </center>
+  </div>
+</div>
+
+<div class="row section highlight">
+
+  <div class="col-xs-6 col-xs-offset-3 text-justify">
+    <h3>Video</h3>
+    <center>
+      <iframe width="640" height="480"
+        src="https://www.youtube.com/embed/JrkW8XFJPcE">
+      </iframe>
+    </center>
+  </div>
+
+</div>
+
+</body></html>

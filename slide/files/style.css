@@ -1,0 +1,58 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+.download-link {
+  font-size: 24px;
+}
+.img-logo {
+  height: 100px;
+}
+.section {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.highlight {
+  background-color: #f7f6f1;
+}
+.text-red {
+  color: rgb(173, 36, 36);
+  font-weight: bold;
+}
+.text-blue {
+  color: rgb(41, 74, 214);
+  font-weight: bold;
+}
+.text-green {
+  color: rgb(28, 105, 20);
+  font-weight: bold;
+}
+.text-purple {
+  color: rgb(128, 38, 192);
+  font-weight: bold;
+}
+.text-orange {
+  color: rgb(255, 146, 51);
+  font-weight: bold;
+}
+.text-brown {
+  color: rgb(128, 37, 26);
+  font-weight: bold;
+}
+.text-cyan {
+  color: rgb(41, 208, 208);
+  font-weight: bold;
+}
+.text-brown {
+  color: rgb(129, 74, 25);
+  font-weight: bold;
+}
+.text-gray {
+  color: rgb(87, 87, 87);
+  font-weight: bold;
+}
+.text-yellow {
+  color: rgb(153, 153, 0);
+  font-weight: bold;
+}

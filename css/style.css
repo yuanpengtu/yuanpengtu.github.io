@@ -1,0 +1,224 @@
+/* RESET
+   http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**** Isotope filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+/* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+
+/*==============================
+	MY STYLES
+==============================*/
+body {
+  background: #ffffff;
+  width: 900px;
+  margin: 20px auto 0px;
+  font-family: Helvetica Neue, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  /* color: #990000; */
+  /* color: #003262; */
+  /* color: #00548f; */
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+b {
+  font-weight: bold;
+}
+
+tr {
+}
+
+td {
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+ul {
+  list-style-type:disc; 
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+li {
+  line-height: 2.0;
+}
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#personal {
+  float: left;
+  width: 900px;
+  margin-top: -50px;
+}
+
+#basic {
+  width: 65%;
+  vertical-align: top;
+  padding-right: 60px;
+}
+
+#basic h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+#basic h2 {
+  text-align: center;
+}
+
+#bio {
+  width: 65%;
+  vertical-align: top;
+  padding-right: 60px;
+}
+
+#photo {
+  width: 35%;
+  vertical-align: center;
+  padding-right:120px;
+}
+
+#photo img {
+  width: 220px;
+  /* margin-top: -20px; */
+}
+
+#info {
+  float: left;
+  width: 800px;
+}
+
+#info h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#publications {
+  line-height: 2.0;
+  margin-top: -10px;
+}
+
+#publications img {
+  width: 180px;
+  height: 120px;
+  margin-right: 30px;
+}
+
+#publications table {
+  float: left;
+}
+
+#publications table img {
+}
+
+#publications-image {
+  width: 20%;
+  text-align: left;
+  vertical-align: top;
+}
+
+#publications-info {
+  width: 80%;
+  text-align: left;
+  vertical-align: top;
+}
+
+#paper {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#author {
+  color: #505050;
+}
+
+#author-kuan {
+  font-weight: bold;
+  color: black;
+}
